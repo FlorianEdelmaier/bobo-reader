@@ -1,5 +1,7 @@
 {
   "expo": {
     "sdkVersion": "20.0.0"
-  }
+  },
+  "name": "boboreader",
+  "displayName": "Pinguin BOBO's Werkzeugbuch für Kinderschilehererinnen"
 }

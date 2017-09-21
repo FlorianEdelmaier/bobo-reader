@@ -6,7 +6,10 @@ import {
     Dimensions,
     StyleSheet
 } from 'react-native';
+import { Icon } from 'react-native-elements';
+import config from './../../config';
 import Pdf from 'react-native-pdf';
+import encodeUrl from 'encodeurl';
 
 export default class Document extends React.Component {
     static navigationOptions = {
@@ -41,23 +44,32 @@ export default class Document extends React.Component {
     }
 
     render() {
-        console.log("file path", this.props.navigation.state.params);
-        let source = {uri:'https://www.phoca.cz/demo/phocadownload/phocapdf-demo.pdf', cache: true};
+        const { dirName, fileName } = this.props.navigation.state.params;
+        const filePath = encodeUrl(`${config.baseApiPath}/downloads/file/${dirName}/${fileName}`);
+        let source = {uri: filePath, cache: true};
         return (
             <View style={styles.container}>
-                <View style={{flexDirection: 'row'}}>
-                    <TouchableHighlight
+                <View style={{flexDirection: 'row', justifyContent: 'space-around', zIndex: 100 }}>
+                    {/* <TouchableHighlight
                         disabled={this.state.page === 1}
                         style={this.state.page === 1 ? styles.btnDisable : styles.btn}
+                        onPress={() => this.prePage()} */}
+                    
+                    <Icon
+                        name='chevron-left'
                         onPress={() => this.prePage()}
-                    ><Text style={styles.btnText}>{'Previous'}</Text>
-                    </TouchableHighlight>
-                    <TouchableHighlight
+                    />
+                    <Icon
+                        name='chevron-right'
+                        onPress={() => this.nextPage()}
+                    />
+                    {/* <TouchableHighlight
                         disabled={this.state.page === this.state.pageCount}
                         style={this.state.page === this.state.pageCount ? styles.btnDisable : styles.btn}
                         onPress={() => this.nextPage()}
-                    ><Text style={styles.btnText}>{'Next'}</Text>
-                    </TouchableHighlight>
+                    >
+                    <Icon name='arrow-bold-right' />
+                    </TouchableHighlight> */}
                 </View>
                 <Pdf
                     ref={ (pdf) => { this.pdf = pdf }}
@@ -66,6 +78,7 @@ export default class Document extends React.Component {
                     page={1}
                     horizontal={false}
                     onLoadComplete={pageCount => {
+                        console.log("finished loading pdf")
                         this.setState({pageCount: pageCount});
                         console.log(`total page count: ${pageCount}`);
                     }}
@@ -87,7 +100,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'flex-start',
         alignItems: 'center',
-        marginTop: 25,
+        marginTop: 0,
     },
     btn: {
         margin: 5,
@@ -105,5 +118,6 @@ const styles = StyleSheet.create({
     pdf: {
         flex:1,
         width:Dimensions.get('window').width,
+        zIndex: 10
     }
 });

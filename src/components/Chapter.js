@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
     listContainer: {
         borderTopWidth: 0,
         borderBottomWidth: 0,
+        marginTop: 0,
         flex: 1,
         width: '100%'
     },

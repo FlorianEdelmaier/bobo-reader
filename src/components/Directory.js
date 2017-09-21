@@ -46,11 +46,13 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start',
         alignItems: 'stretch',
         marginTop: 0,
-        borderTopWidth: 0
+        borderTopWidth: 0,
+        backgroundColor: '#991199'
     },
     listContainer: {
         borderTopWidth: 0,
         borderBottomWidth: 0,
+        marginTop: 0,
         flex: 1,
         width: '100%'
     },
