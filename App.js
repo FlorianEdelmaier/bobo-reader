@@ -1,11 +1,18 @@
 import React from 'react';
 import Directory from './src/components/Directory';
 import Chapter from './src/components/Chapter';
-import { StackNavigator } from 'react-navigation';
+import Document from './src/components/Document';
+import { StackNavigator, addNavigationHelpers } from 'react-navigation';
+import { Provider } from 'react-redux';
+import store from './src/store';
 
-const App = StackNavigator({
+const AppNavigator = StackNavigator({
   Directory: { screen: Directory },
-  Chapter: { screen: Chapter },
+  Chapter: { path: 'directory/:dirName', screen: Chapter },
+  Document: { path: 'document/:docName', screen: Document }
 });
+
+const App = () =>
+<Provider store={store}><AppNavigator /></Provider>;
 
 export default App;
