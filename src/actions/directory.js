@@ -4,7 +4,7 @@ import * as api from './../api';
 export const fetchDirectory = () => async(dispatch) => {
     dispatch({ type: consts.DIRECTORY.REQUEST });
     try {
-        const dir = data; //await api.getDirectory();
+        const dir = await api.getDirectory();
         dispatch({
             type: consts.DIRECTORY.SUCCESS,
             payload: dir

@@ -45,7 +45,7 @@ export default class Document extends React.Component {
 
     render() {
         const { dirName, fileName } = this.props.navigation.state.params;
-        const filePath = encodeUrl(`${config.baseApiPath}/downloads/file/${dirName}/${fileName}`);
+        const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/01%20Einleitung/04%20Gruppeneinteilung.pdf`);
         let source = {uri: filePath, cache: true};
         return (
             <View style={styles.container}>
@@ -76,7 +76,8 @@ export default class Document extends React.Component {
                     source={source}
                     style={styles.pdf}
                     page={1}
-                    horizontal={false}
+                    
+                    scale={2}
                     onLoadComplete={pageCount => {
                         console.log("finished loading pdf")
                         this.setState({pageCount: pageCount});
@@ -117,6 +118,8 @@ const styles = StyleSheet.create({
     },
     pdf: {
         flex:1,
+        marginTop: 20,
+        alignItems: 'flex-start',
         width:Dimensions.get('window').width,
         zIndex: 10
     }
