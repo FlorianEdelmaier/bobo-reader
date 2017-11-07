@@ -90,6 +90,7 @@
     <orderEntry type="library" exported="" name="imagepipeline-base-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="textlayoutbuilder-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="okio-1.13.0" level="project" />
+    <orderEntry type="library" exported="" name="pdfium-android-1.7.0" level="project" />
     <orderEntry type="library" exported="" name="imagepipeline-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="soloader-0.1.0" level="project" />
     <orderEntry type="library" exported="" name="javax.inject-1" level="project" />
@@ -98,15 +99,16 @@
     <orderEntry type="library" exported="" name="drawee-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="fbcore-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="react-native-0.47.2" level="project" />
+    <orderEntry type="library" exported="" name="android-pdf-viewer-2.7.0" level="project" />
     <orderEntry type="library" exported="" name="okhttp-3.6.0" level="project" />
     <orderEntry type="library" exported="" name="okhttp-urlconnection-3.6.0" level="project" />
     <orderEntry type="library" exported="" name="android-jsc-r174650" level="project" />
     <orderEntry type="library" exported="" name="staticlayout-proxy-1.0" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-23.0.1" level="project" />
     <orderEntry type="library" exported="" name="imagepipeline-okhttp3-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-23.0.1" level="project" />
     <orderEntry type="library" exported="" name="fresco-1.0.1" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-23.0.1" level="project" />
+    <orderEntry type="module" module-name="react-native-pdf" exported="" />
     <orderEntry type="module" module-name="react-native-vector-icons" exported="" />
+    <orderEntry type="module" module-name="react-native-fetch-blob" exported="" />
   </component>
 </module>

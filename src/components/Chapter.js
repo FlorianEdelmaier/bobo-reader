@@ -8,64 +8,40 @@ import {
     Text
 } from 'react-native';
 import { List } from 'react-native-elements';
-import { files } from './../actions';
-import ChapterItem from './ChapterItem';
+import { fetchSubDirectory } from './../actions';
+import ChapterList from './ChapterList';
 
 class Chapter extends React.Component {
     static navigationOptions = {
         title: 'Dokumente',
     };
 
+    componentDidMount() {
+        this.props.fetchSubDirectory(this.props.navigation.state.params.dirName);
+    }
+
     renderSeparator = () => { return ( <View style={styles.separator} /> ); }
 
     render() {
-        console.log("props", this.props.navigation.state.params);
-        console.log("files", files(this.props.navigation.state.params.dirName))
         return (
-            <View style={styles.container}>
-                <List containerStyle={styles.listContainer}>
-                    <FlatList
-                        data={files(this.props.navigation.state.params.dirName)}
-                        keyExtractor={(item, index) => item.displayName}
-                        ItemSeparatorComponent={this.renderSeparator}
-                        renderItem={({item}) => <ChapterItem navigate={this.props.navigation.navigate} item={item} />}
-                    />
-                </List>
-            </View>
+            <ChapterList subdirData={this.props.chapters} isFetching={this.props.isFetching} navigate={this.props.navigation.navigate} />
         )
     }
 }
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        width: '100%',
-        justifyContent: 'flex-start',
-        alignItems: 'stretch',
-        marginTop: 0,
-        borderTopWidth: 0
-    },
-    listContainer: {
-        borderTopWidth: 0,
-        borderBottomWidth: 0,
-        marginTop: 0,
-        flex: 1,
-        width: '100%'
-    },
-    separator: {
-        height: 1,
-        width: "86%",
-        backgroundColor: "#CED0CE",
-        marginLeft: "14%"
-    }
-});
-
 const mapStateToProps = (state) => {
     return {
-        files: state.directory
+        chapters: state[1],
+        isFetching: state[2]
     }
 };
 
-const ChapterContainer = connect(mapStateToProps)(Chapter);
+const mapDispatchToProps = (dispatch) => {
+    return {
+        fetchSubDirectory: (parentDir) => dispatch(fetchSubDirectory(parentDir))
+    }
+};
+
+const ChapterContainer = connect(mapStateToProps, mapDispatchToProps)(Chapter);
 
 export default ChapterContainer;

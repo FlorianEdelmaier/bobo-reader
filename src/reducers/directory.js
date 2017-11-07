@@ -4,6 +4,7 @@ export default directory = (state = [], action) => {
     switch(action.type) {
         case consts.DIRECTORY.SUCCESS:
             return action.payload;
+        case consts.DIRECTORY.REQUEST:
         case consts.DIRECTORY.FAILURE:
             return [];
         default:

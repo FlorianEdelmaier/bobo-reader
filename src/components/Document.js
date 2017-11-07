@@ -39,13 +39,12 @@ export default class Document extends React.Component {
             let nextPage = this.state.page + 1 > this.state.pageCount ? this.state.pageCount : this.state.page + 1;
             this.pdf.setNativeProps({page: nextPage});
             this.setState({page: nextPage});
-            console.log(`nextPage: ${nextPage}`);
         }
     }
 
     render() {
         const { dirName, fileName } = this.props.navigation.state.params;
-        const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/01%20Einleitung/04%20Gruppeneinteilung.pdf`);
+        const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/${encodeUrl(dirName)}/${encodeUrl(fileName)}`);
         let source = {uri: filePath, cache: true};
         return (
             <View style={styles.container}>
@@ -76,7 +75,6 @@ export default class Document extends React.Component {
                     source={source}
                     style={styles.pdf}
                     page={1}
-                    
                     scale={2}
                     onLoadComplete={pageCount => {
                         console.log("finished loading pdf")

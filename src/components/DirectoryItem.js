@@ -11,9 +11,12 @@ export default class DirectoryItem extends React.PureComponent {
     render() {
         return (
             <ListItem
-                avatar={<Avatar small rounded icon={{name: 'archive', color: 'grey' }} overlayContainerStyle={{backgroundColor: this.props.item.colorCode }} />}
+                avatar={<Avatar medium rounded icon={{name: 'view-list', color: 'white' }} overlayContainerStyle={{backgroundColor: 'forestgreen' }} />}
                 title={this.props.item.displayName}
+                avatarContainerStyle={{ marginRight: 5 }}
                 containerStyle={{ borderBottomWidth: 0, }}
+                titleStyle={{fontSize: 22, color: 'coral'}}
+                titleContainerStyle={{ marginLeft: 20, marginTop: 15, marginBottom: 10}}
                 onPress={() => this.props.navigate('Chapter', { dirName: this.props.item.name })}
             />
         );
