@@ -4,7 +4,8 @@ import {
     Text,
     TouchableHighlight,
     Dimensions,
-    StyleSheet
+    StyleSheet,
+    ActivityIndicator
 } from 'react-native';
 import { Icon } from 'react-native-elements';
 import config from './../../config';
@@ -18,72 +19,24 @@ export default class Document extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            page: 1,
-            pageCount: 1,
-        };
         this.pdf = null;
-    }
-
-    prePage = () => {
-        if(this.pdf) {
-            let prePage = this.state.page > 1 ? this.state.page - 1 : 1;
-            this.pdf.setNativeProps({page: prePage});
-            this.setState({page: prePage});
-            console.log(`prePage: ${prePage}`);
-        }
-    }
-
-    nextPage = () => {
-        if(this.pdf) {
-            let nextPage = this.state.page + 1 > this.state.pageCount ? this.state.pageCount : this.state.page + 1;
-            this.pdf.setNativeProps({page: nextPage});
-            this.setState({page: nextPage});
-        }
     }
 
     render() {
         const { dirName, fileName } = this.props.navigation.state.params;
         const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/${encodeUrl(dirName)}/${encodeUrl(fileName)}`);
-        let source = {uri: filePath, cache: true};
+        let source = {uri: filePath, cached: true};
         return (
             <View style={styles.container}>
-                <View style={{flexDirection: 'row', justifyContent: 'space-around', zIndex: 100 }}>
-                    {/* <TouchableHighlight
-                        disabled={this.state.page === 1}
-                        style={this.state.page === 1 ? styles.btnDisable : styles.btn}
-                        onPress={() => this.prePage()} */}
-                    
-                    <Icon
-                        name='chevron-left'
-                        onPress={() => this.prePage()}
-                    />
-                    <Icon
-                        name='chevron-right'
-                        onPress={() => this.nextPage()}
-                    />
-                    {/* <TouchableHighlight
-                        disabled={this.state.page === this.state.pageCount}
-                        style={this.state.page === this.state.pageCount ? styles.btnDisable : styles.btn}
-                        onPress={() => this.nextPage()}
-                    >
-                    <Icon name='arrow-bold-right' />
-                    </TouchableHighlight> */}
-                </View>
                 <Pdf
-                    ref={ (pdf) => { this.pdf = pdf }}
+                    ref={pdf => this.pdf = pdf}
                     source={source}
                     style={styles.pdf}
-                    page={1}
-                    scale={2}
-                    onLoadComplete={pageCount => {
-                        console.log("finished loading pdf")
-                        this.setState({pageCount: pageCount});
+                    fitWidth={true}
+                    activityIndicator={<ActivityIndicator size={'large'} />}
+                    onLoadComplete={(pageCount)=>{
+                        console.log("pdf", this.pdf);
                         console.log(`total page count: ${pageCount}`);
-                    }}
-                    onPageChanged={(page, pageCount) => {
-                        this.setState({page: page});
-                        console.log(`current page: ${page}`);
                     }}
                     onError={err => {
                         console.log(`err: ${err}`);
@@ -99,7 +52,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'flex-start',
         alignItems: 'center',
-        marginTop: 0,
+        margin: 0,
     },
     btn: {
         margin: 5,
@@ -115,10 +68,10 @@ const styles = StyleSheet.create({
         color: "#FFF",
     },
     pdf: {
-        flex:1,
-        marginTop: 20,
-        alignItems: 'flex-start',
-        width:Dimensions.get('window').width,
-        zIndex: 10
+        flex: 1,
+        width:  Dimensions.get('window').width,
+        //height: Dimensions.get('window').height
     }
 });
+
+//

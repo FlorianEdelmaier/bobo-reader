@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>3G4Y57V8H9.org.reactjs.native.example.boboreader</string>
+	<string>5N79TQ42CD.org.reactjs.native.example.boboreader</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>3G4Y57V8H9.org.reactjs.native.example.boboreader</string>
+		<string>5N79TQ42CD.org.reactjs.native.example.boboreader</string>
 	</array>
 </dict>
 </plist>
