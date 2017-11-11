@@ -26,6 +26,7 @@ export default class Document extends React.Component {
         const { dirName, fileName } = this.props.navigation.state.params;
         const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/${encodeUrl(dirName)}/${encodeUrl(fileName)}`);
         let source = {uri: filePath, cached: true};
+        // source = require("./node-dev.pdf");
         return (
             <View style={styles.container}>
                 <Pdf
@@ -33,10 +34,14 @@ export default class Document extends React.Component {
                     source={source}
                     style={styles.pdf}
                     fitWidth={true}
+                    //scale={2}
                     activityIndicator={<ActivityIndicator size={'large'} />}
                     onLoadComplete={(pageCount)=>{
                         console.log("pdf", this.pdf);
                         console.log(`total page count: ${pageCount}`);
+                    }}
+                    onPageChanged={(page, pageCount) => {
+                        console.log(`current page: ${page}`, page.Dimensions);
                     }}
                     onError={err => {
                         console.log(`err: ${err}`);
@@ -50,27 +55,17 @@ export default class Document extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'flex-start',
-        alignItems: 'center',
+        // justifyContent: 'flex-start',
+        // alignItems: 'center',
         margin: 0,
-    },
-    btn: {
-        margin: 5,
-        padding:5,
-        backgroundColor: "blue",
-    },
-    btnDisable: {
-        margin: 5,
-        padding:5,
-        backgroundColor: "gray",
-    },
-    btnText: {
-        color: "#FFF",
     },
     pdf: {
         flex: 1,
-        width:  Dimensions.get('window').width,
-        //height: Dimensions.get('window').height
+        justifyContent: 'flex-start',
+        // marginTop: (Dimensions.get('window').height * -1),
+        width: '100%' // Dimensions.get('window').width,
+        // height: Dimensions.get('window').height,
+        //backgroundColor: 'blue'
     }
 });
 
