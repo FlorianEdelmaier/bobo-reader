@@ -19,7 +19,16 @@ export const FILE = {
 export const LOGIN = {
     REQUEST: 'LOGIN_REQUEST',
     SUCCESS: 'LOGIN_SUCCESS',
-    FAILURE: 'LOGIN_FAILURE'
+    FAILURE: 'LOGIN_FAILURE',
+    RENEW: {
+        REQUEST: 'LOGIN_RENEW_REQUEST',
+        SUCCESS: 'LOGIN_RENEW_SUCCESS',
+        FAILURE: 'LOGIN_RENEW_FAILURE'
+    },
+    UPDATE: 'LOGIN_UPDATE'
+}
+export const LANG = {
+    SET: 'LANG_SET'
 }
 
 export const FETCHING = 'FETCHING';

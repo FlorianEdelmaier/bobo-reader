@@ -7,6 +7,7 @@ import Login from './src/components/Login';
 import { StackNavigator, addNavigationHelpers } from 'react-navigation';
 import { Provider } from 'react-redux';
 import store from './src/store';
+import {isLoggedIn} from './src/reducers'
 
 const Root = () => (
   <Provider store={store}><AppContainer /></Provider>
@@ -32,7 +33,7 @@ class App extends React.Component {
 const mapStateToProps = (state) => {
   return {
       isFetching: state[2],
-      isAuthenticated: state[3]
+      isAuthenticated: isLoggedIn(state[3])
   }
 };
 

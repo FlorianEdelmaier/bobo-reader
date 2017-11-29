@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "encodeurl": "1.0.1",
+    "jwt-decode": "2.2.0",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.47.0",
     "react-native-elements": "0.17.0",
@@ -28,6 +29,7 @@
     "react-redux": "5.0.6",
     "redux": "3.7.2",
     "redux-logger": "3.0.6",
-    "redux-thunk": "2.2.0"
+    "redux-thunk": "2.2.0",
+    "validator": "9.1.2"
   }
 }

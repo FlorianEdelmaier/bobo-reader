@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {StyleSheet} from 'react-native';
 import DirectoryList from './DirectoryList';
 import { fetchDirectory } from './../actions';
+import localize from './../localization';
 
 class Directory extends React.Component {
     constructor(props) {
@@ -10,11 +11,12 @@ class Directory extends React.Component {
     }
 
     static navigationOptions = {
-        title: 'Verzeichnis',
+        title: localize('de', 'browser.labelDir'),
     };
 
     componentDidMount() {
-        this.props.fetchDirectory('de');
+        console.log("did mount", this.props.lang)
+        this.props.fetchDirectory(this.props.lang);
     }
 
     render() {
@@ -30,7 +32,8 @@ class Directory extends React.Component {
 const mapStateToProps = (state) => {
     return {
         directory: state[0],
-        isFetching: state[2]
+        isFetching: state[2],
+        lang: state[4]
     }
 };
 

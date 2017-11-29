@@ -24,7 +24,7 @@ export default class Document extends React.Component {
 
     render() {
         const { dirName, fileName } = this.props.navigation.state.params;
-        const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/${encodeUrl(dirName)}/${encodeUrl(fileName)}`);
+        const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/${dirName}/${fileName}`);
         let source = {uri: filePath, cached: true};
         // source = require("./node-dev.pdf");
         return (
@@ -34,7 +34,7 @@ export default class Document extends React.Component {
                     source={source}
                     style={styles.pdf}
                     fitWidth={true}
-                    //scale={2}
+                    spacing={0}
                     activityIndicator={<ActivityIndicator size={'large'} />}
                     onLoadComplete={(pageCount)=>{
                         console.log("pdf", this.pdf);
