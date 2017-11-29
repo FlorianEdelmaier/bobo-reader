@@ -17,7 +17,7 @@ class Chapter extends React.Component {
     };
 
     componentDidMount() {
-        this.props.fetchSubDirectory(this.props.navigation.state.params.dirName);
+        this.props.fetchSubDirectory(this.props.lang, this.props.navigation.state.params.dirName);
     }
 
     renderSeparator = () => { return ( <View style={styles.separator} /> ); }
@@ -32,13 +32,14 @@ class Chapter extends React.Component {
 const mapStateToProps = (state) => {
     return {
         chapters: state[1],
-        isFetching: state[2]
+        isFetching: state[2],
+        lang: state[4]
     }
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        fetchSubDirectory: (parentDir) => dispatch(fetchSubDirectory(parentDir))
+        fetchSubDirectory: (lang, parentDir) => dispatch(fetchSubDirectory(lang, parentDir))
     }
 };
 

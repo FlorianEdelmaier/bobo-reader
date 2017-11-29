@@ -40,8 +40,9 @@ export const getDirectory = (lang) => {
     });
 }
 
-export const getSubDirectory = (parentDir) => {
-    return fetch(`${config.baseApiPath}/download/index/de/sub/${parentDir}`, {
+export const getSubDirectory = (lang, parentDir) => {
+    console.log("sub", lang, parentDir)
+    return fetch(`${config.baseApiPath}/download/index/${lang}/sub/${parentDir}`, {
         method: 'GET',
         headers: {
             'Accept': 'application/json',

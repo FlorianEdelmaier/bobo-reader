@@ -7,12 +7,13 @@ import {
     StyleSheet,
     ActivityIndicator
 } from 'react-native';
+import {connect} from 'react-redux';
 import { Icon } from 'react-native-elements';
 import config from './../../config';
 import Pdf from 'react-native-pdf';
 import encodeUrl from 'encodeurl';
 
-export default class Document extends React.Component {
+class Document extends React.Component {
     static navigationOptions = {
         title: 'File',
     };
@@ -24,7 +25,7 @@ export default class Document extends React.Component {
 
     render() {
         const { dirName, fileName } = this.props.navigation.state.params;
-        const filePath = encodeUrl(`${config.baseApiPath}/download/file/de/${dirName}/${fileName}`);
+        const filePath = encodeUrl(`${config.baseApiPath}/download/file/${this.props.lang}/${dirName}/${fileName}`);
         let source = {uri: filePath, cached: true};
         // source = require("./node-dev.pdf");
         return (
@@ -51,6 +52,16 @@ export default class Document extends React.Component {
         );
     }
 }
+
+const mapStateToProps = (state) => {
+    return {
+        lang: state[4]
+    }
+};
+
+const DocumentContainer = connect(mapStateToProps)(Document);
+
+export default DocumentContainer;
 
 const styles = StyleSheet.create({
     container: {
