@@ -11,7 +11,7 @@ export default class DirectoryItem extends React.PureComponent {
     render() {
         return (
             <ListItem
-                avatar={<Avatar medium rounded icon={{name: 'view-list', color: 'white' }} overlayContainerStyle={{backgroundColor: 'forestgreen' }} />}
+                avatar={<Avatar medium rounded icon={{name: 'view-list', color: 'white' }} overlayContainerStyle={{backgroundColor: this.props.item.colorCode }} />}
                 title={this.props.item.displayName}
                 avatarContainerStyle={{ marginRight: 5 }}
                 containerStyle={{ borderBottomWidth: 0, }}

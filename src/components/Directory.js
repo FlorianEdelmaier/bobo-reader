@@ -15,8 +15,8 @@ class Directory extends React.Component {
     };
 
     componentDidMount() {
-        console.log("did mount", this.props.lang)
-        this.props.fetchDirectory(this.props.lang);
+        console.log("did mount", this.props.lang, this.props.token)
+        this.props.fetchDirectory(this.props.lang, this.props.token);
     }
 
     render() {
@@ -33,6 +33,7 @@ const mapStateToProps = (state) => {
     return {
         directory: state[0],
         isFetching: state[2],
+        token: state[3].token,
         lang: state[4]
     }
 };

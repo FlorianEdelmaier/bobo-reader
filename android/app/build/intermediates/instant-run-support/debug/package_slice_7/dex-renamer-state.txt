@@ -1,4 +1,0 @@
-#Fri Nov 24 02:14:57 CET 2017
-base.0=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/dexMerger/debug/7
-path.0=classes.dex
-renamed.0=classes.dex

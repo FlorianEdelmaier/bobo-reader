@@ -33,10 +33,6 @@ export default login = (state = defaultState, action) => {
             },
             roles: action.payload.roles
         };
-        // case consts.LOGIN.SUCCESS:
-        //     return true;
-        // case consts.LOGIN.FAILURE:
-        //     return false;
         default:
             return state;
     }

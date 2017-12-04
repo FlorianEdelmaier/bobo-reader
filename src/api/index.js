@@ -24,8 +24,8 @@ export const login = (userName, password, url, deviceType) => {
     .catch(err => { console.log("FETCH ERR:", err); throw err; });
 };
 
-export const getDirectory = (lang) => {
-    console.log("getdir", lang);
+export const getDirectory = (lang, userToken) => {
+    console.log("getdir", lang, userToken);
     return fetch(`${config.baseApiPath}/download/index/${lang}`, {
         method: 'GET',
         headers: {
@@ -40,8 +40,8 @@ export const getDirectory = (lang) => {
     });
 }
 
-export const getSubDirectory = (lang, parentDir) => {
-    console.log("sub", lang, parentDir)
+export const getSubDirectory = (lang, parentDir, userToken) => {
+    //console.log("sub", lang, parentDir)
     return fetch(`${config.baseApiPath}/download/index/${lang}/sub/${parentDir}`, {
         method: 'GET',
         headers: {

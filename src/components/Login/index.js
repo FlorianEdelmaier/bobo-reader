@@ -80,11 +80,12 @@ class Login extends Component {
 
     render() {
         return (
-            <View>
+            <ScrollView>
                 <View style={{flex: 1, alignItems: 'center', marginTop: 40}}>
                 <Text style={{fontSize: 30, fontWeight: 'bold', color: 'darkgrey'}}>{localize(this.props.lang, 'title')}</Text>
                 </View>
-                <View style={{height: 100}}>
+                <View style={{ marginTop: 20, height: 82, alignItems:'center', zIndex: -3}}>
+                    <Image style={{height: 95, width: 95}} source={require('./../../assets/bobo_logo.png')} resizeMethod='auto' />
                 </View>
                 <FormLabel>{localize(this.props.lang, 'login.labelUname')}</FormLabel>
                 <FormInput
@@ -126,7 +127,7 @@ class Login extends Component {
                         <Text style={{color: 'red', fontWeight: 'bold'}}>{this.props.loginError}</Text>
                     </View>
                 }
-            </View>
+            </ScrollView>
         );
     }
 }

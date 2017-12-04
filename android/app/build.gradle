@@ -94,13 +94,27 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.boboreader"
+        applicationId "com.pinguinboboswerkzeugbuch"
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
+        }
+    }
+    signingConfigs {
+        release {
+            // if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                // storeFile file(MYAPP_RELEASE_STORE_FILE)
+                // storePassword MYAPP_RELEASE_STORE_PASSWORD
+                // keyAlias MYAPP_RELEASE_KEY_ALIAS
+                // keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            // }
+            storeFile file("bobo.0.0.1.keystore")
+            storePassword "boboReader11\$5"
+            keyAlias "boboReader"
+            keyPassword "boboReader11\$5"
         }
     }
     splits {
@@ -113,6 +127,7 @@ android {
     }
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }

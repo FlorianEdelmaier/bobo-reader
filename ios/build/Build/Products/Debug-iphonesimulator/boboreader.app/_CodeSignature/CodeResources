@@ -4,9 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<data>
+		B/vDm16AAwK7UGTqJu9Pntc53Aw=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		bCWTxNTZoM3dkjn5YRKBDqNlqQM=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		ANPJic43dIvlr/MHQuVSdu3cI0Y=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		ANPJic43dIvlr/MHQuVSdu3cI0Y=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		8LSzTuBO43HBArUDyqFRhFOK7sA=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		lxThsHZcHBxuL2wrM3KSSKHkHwM=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		bpNKxynhz1CaJvG37ItJrzzFQV4=
+		jlOh0bi/bfKgnV6pkD7igX9NE0E=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -71,7 +95,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0Aqopp5dbLn6zDPQtb/WmHP20uQ=
+		/eBd4Og9dUy7HdQCOyiqYAbCQQw=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -99,7 +123,7 @@
 		</data>
 		<key>PlugIns/boboreaderTests.xctest.dSYM/Contents/Resources/DWARF/boboreaderTests</key>
 		<data>
-		K5czj/Zke2JtV5LiMa//G39QnP8=
+		K8PKZDqTUM8NP6QB2sHhnk5y2BU=
 		</data>
 		<key>PlugIns/boboreaderTests.xctest/Info.plist</key>
 		<data>
@@ -111,7 +135,7 @@
 		</data>
 		<key>PlugIns/boboreaderTests.xctest/boboreaderTests</key>
 		<data>
-		b/oy/apvAGYGEaKJMd0mOxTfEBQ=
+		8tgGWHq5yYKEIyX7zo5HLqNw7WY=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -124,15 +148,81 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B/vDm16AAwK7UGTqJu9Pntc53Aw=
+			</data>
+			<key>hash2</key>
+			<data>
+			dw6FkF/Kw1MQ+N2savvKcK/8FfpDZS8bJ5XBvUM6za4=
+			</data>
+		</dict>
+		<key>AppIcon40x40@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bCWTxNTZoM3dkjn5YRKBDqNlqQM=
+			</data>
+			<key>hash2</key>
+			<data>
+			jk1Zk16zRdsABxM5ApKgezweKqC4L0cRplRSzHiDDiw=
+			</data>
+		</dict>
+		<key>AppIcon40x40@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ANPJic43dIvlr/MHQuVSdu3cI0Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			o9YTnwNLwAXogShkKkQXUsBLWeRHwCygAw8liuHSSFI=
+			</data>
+		</dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ANPJic43dIvlr/MHQuVSdu3cI0Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			o9YTnwNLwAXogShkKkQXUsBLWeRHwCygAw8liuHSSFI=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8LSzTuBO43HBArUDyqFRhFOK7sA=
+			</data>
+			<key>hash2</key>
+			<data>
+			tOscWliqZ7t9ehoHvCc852MX2tPEXJUxec5/VHNqA/0=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lxThsHZcHBxuL2wrM3KSSKHkHwM=
+			</data>
+			<key>hash2</key>
+			<data>
+			C/v8/VctxFxm0QH9D1wIjO4whkICpf22XNnoQAefgRU=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bpNKxynhz1CaJvG37ItJrzzFQV4=
+			jlOh0bi/bfKgnV6pkD7igX9NE0E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eARSKRk6oCWyWrgU7n2iu3WazbdaF1J6vuv92DJBbWA=
+			78AWwgh2qWXjgjZpOkmgHutiyuvI7uvUhV9NT1xOoQ4=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -350,11 +440,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K5czj/Zke2JtV5LiMa//G39QnP8=
+			K8PKZDqTUM8NP6QB2sHhnk5y2BU=
 			</data>
 			<key>hash2</key>
 			<data>
-			IUvgDmcBH6c5V71S7p/pji0ikBOgAAv4xenu/2PWpb8=
+			Qd0WEl/MdXL65qW/OQvYCsnDmjkS7bHO2RGvdKvFD1s=
 			</data>
 		</dict>
 		<key>PlugIns/boboreaderTests.xctest/Info.plist</key>
@@ -383,11 +473,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b/oy/apvAGYGEaKJMd0mOxTfEBQ=
+			8tgGWHq5yYKEIyX7zo5HLqNw7WY=
 			</data>
 			<key>hash2</key>
 			<data>
-			jBu6/06DBBAksRD6ySABbkX5M0gf68PUU9dMfVWs+kI=
+			FxkztrTLqY4V4vO6Q9zrBUv91gzeZoCvNnim+WnQbMQ=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
