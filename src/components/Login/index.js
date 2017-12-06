@@ -85,7 +85,7 @@ class Login extends Component {
                 <Text style={{fontSize: 30, fontWeight: 'bold', color: 'darkgrey'}}>{localize(this.props.lang, 'title')}</Text>
                 </View>
                 <View style={{ marginTop: 20, height: 82, alignItems:'center', zIndex: -3}}>
-                    <Image style={{height: 95, width: 95}} source={require('./../../assets/bobo_logo.png')} resizeMethod='auto' />
+                    <Image style={{height: 80, width: 80}} source={require('./../../assets/bobo_logo.png')} resizeMethod='scale' />
                 </View>
                 <FormLabel>{localize(this.props.lang, 'login.labelUname')}</FormLabel>
                 <FormInput

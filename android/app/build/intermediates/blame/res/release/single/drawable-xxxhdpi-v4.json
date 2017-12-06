@@ -48,10 +48,6 @@
         "source": "/Users/Florian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/6660b0cb9d235607aea79a7423eb35aa/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/node_modules_reactnavigation_src_views_assets_backicon.png",
-        "source": "/Users/Florian/Projects/bobo-reader/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_src_views_assets_backicon.png"
-    },
-    {
         "merged": "/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
         "source": "/Users/Florian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/6660b0cb9d235607aea79a7423eb35aa/res/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
     },

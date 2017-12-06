@@ -23,43 +23,13 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.7.0.aar/be15b68d182512f49bd10ffcb4b45177/jars/classes.jar"
         jumboMode="false"
         min-sdk-version="16"
         optimize="true"
         revision="26.0.2"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/15.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/Projects/bobo-reader/node_modules/react-native-vector-icons/android/build/intermediates/intermediate-jars/release/classes.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/31.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/13.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/14.jar" />
+        sha1="100c2548728b6c99e002328d3590b750a6afa9e5">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -83,43 +53,13 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c7a59339f19aff3b7b24ef979e273d74/jars/classes.jar"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/react-native-0.47.2.aar/3406d617455c1978239e7ad30b2ea55b/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         min-sdk-version="16"
         optimize="true"
         revision="26.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/Projects/bobo-reader/node_modules/react-native-pdf/android/build/intermediates/intermediate-jars/release/classes.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c7b6bb8afabb4b60f9719d1e233885f315a9c0af">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/29.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.0.1.aar/a9e3948e65084cdb5c04052392ff7878/jars/classes.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/10.jar" />
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -143,23 +83,33 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/45946e17e3a5970a7de9aba4dad3734e/jars/classes.jar"
         jumboMode="false"
         min-sdk-version="16"
         optimize="true"
         revision="26.0.2"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/23.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/react-native-0.47.2.aar/423f8e262c56ba5005e723b57d79362d/jars/libs/infer-annotations-4.0.jar"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/fresco-1.0.1.aar/f98a432f9e2459b65412751da11187f7/jars/classes.jar"
         jumboMode="false"
         min-sdk-version="16"
         optimize="true"
         revision="26.0.2"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/2.jar" />
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/drawee-1.0.1.aar/88d3644ba8b8a1942cf1c7a170090c51/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/24.jar" />
     </item>
     <item
         is-multidex="false"
@@ -173,43 +123,13 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/ca43886bf6239eed4a8e5e9487e1c90c/jars/classes.jar"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/6660b0cb9d235607aea79a7423eb35aa/jars/classes.jar"
         jumboMode="false"
         min-sdk-version="16"
         optimize="true"
         revision="26.0.2"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/28.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.0.1.aar/8a7c0dd610a665f474346094d13cfbaf/jars/classes.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/26.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.0.1.aar/f8f38508b2d6347f72727a580325d9db/jars/classes.jar"
-        jumboMode="false"
-        min-sdk-version="16"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/25.jar" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -223,17 +143,27 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/drawee-1.0.1.aar/edb83c9b78ef4e6a173beee5e89a93d0/jars/classes.jar"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-2.7.0.aar/b997e1ea152ef04789a2a9e9aa15d331/jars/classes.jar"
         jumboMode="false"
         min-sdk-version="16"
         optimize="true"
         revision="26.0.2"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/24.jar" />
+        sha1="acc7f730a7b9cccfc9251d727165bc37bbb8dd67">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3241d8584e7fc0ec3ca12a434784a0ed/jars/classes.jar"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/f1fa0a1e787b248af706eb516d21fdd9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/a04db8b277dab8e7569be66dc69ca292/jars/classes.jar"
         jumboMode="false"
         min-sdk-version="16"
         optimize="true"
@@ -290,6 +220,266 @@
         revision="26.0.2"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/Projects/bobo-reader/node_modules/react-native-vector-icons/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.0.1.aar/98faeccbd024bf743ec77e08a0b0188c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c7a59339f19aff3b7b24ef979e273d74/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/Projects/bobo-reader/node_modules/react-native-pdf/android/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c7b6bb8afabb4b60f9719d1e233885f315a9c0af">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.0.1.aar/3dcc793af286daccddc3a67dec0a7ba1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.0.1.aar/a9e3948e65084cdb5c04052392ff7878/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/cabc0cf9733af365f3f0ba3bcacafbaa/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/fbcore-1.0.1.aar/b709cb132a62e7ec5f335eb727a10537/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/0de47b596d54db7529957fc19a698a4b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/5a0e9ec2929d0590c4ec07ae09124ef4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/react-native-0.47.2.aar/423f8e262c56ba5005e723b57d79362d/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/bb368146db80ec1101a1e450f3c9c4f1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/ca43886bf6239eed4a8e5e9487e1c90c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.0.1.aar/8a7c0dd610a665f474346094d13cfbaf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.0.1.aar/f8f38508b2d6347f72727a580325d9db/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/react-native-0.47.2.aar/3406d617455c1978239e7ad30b2ea55b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="576b5113887747a7592650ae14d980e1c57983c4">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/drawee-1.0.1.aar/edb83c9b78ef4e6a173beee5e89a93d0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a052ab6095ce2c169941545e452d68d5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/3241d8584e7fc0ec3ca12a434784a0ed/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Florian/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.0.1.aar/72e99ca3c869477332e5d335d3f6e67e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/preDex/release/25.jar" />
     </item>
     <item
         is-multidex="false"
