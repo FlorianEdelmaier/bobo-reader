@@ -15,7 +15,7 @@ const de = {
     browser: {
         labelDir: 'Verzeichnis',
         labelDocs: 'Dokumente',
-        labelFile: 'File'
+        labelFile: 'Datei'
     } 
 }
 

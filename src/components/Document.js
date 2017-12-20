@@ -15,7 +15,7 @@ import encodeUrl from 'encodeurl';
 
 class Document extends React.Component {
     static navigationOptions = {
-        title: 'File',
+        title: 'Inhalt',
     };
 
     constructor(props) {

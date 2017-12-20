@@ -13,7 +13,8 @@ export const login = (userName, password, url, deviceType) => {
             password,
             url,
             deviceType,
-            deviceToken: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+            deviceToken: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+            isBobo: true
         })
     })
     .then(resp => resp.json())

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>5N79TQ42CD.at.waldhart.boboreader</string>
+	<string>5N79TQ42CD.at.waldhart.bobo-reader</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>5N79TQ42CD.at.waldhart.boboreader</string>
+		<string>5N79TQ42CD.at.waldhart.bobo-reader</string>
 	</array>
 </dict>
 </plist>

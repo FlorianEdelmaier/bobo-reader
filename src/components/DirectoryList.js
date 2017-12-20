@@ -19,7 +19,6 @@ const DirectoryList = ({dirData, navigate, isFetching}) => {
         <List style={styles.container}>
         {isFetching ? renderBusy(isFetching) : <View />}
         <FlatList
-            style={{marginBottom: 50}}
             data={dirData}
             keyExtractor={(item, index) => item.displayName}
             ItemSeparatorComponent={renderSeparator}
