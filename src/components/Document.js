@@ -8,10 +8,11 @@ import {
     ActivityIndicator
 } from 'react-native';
 import {connect} from 'react-redux';
-import { Icon } from 'react-native-elements';
+import { Icon, Button } from 'react-native-elements';
 import config from './../../config';
 import Pdf from 'react-native-pdf';
 import encodeUrl from 'encodeurl';
+import localize from './../localization';
 
 class Document extends React.Component {
     static navigationOptions = {
@@ -48,6 +49,16 @@ class Document extends React.Component {
                         console.log(`err: ${err}`);
                     }}
                 />
+                <View style={{height: 55}}>
+                <Button
+                    small
+                    icon={{name: 'edit', type: 'font-awesome'}}
+                    title={localize(this.props.lang, 'document.labelNotes')}
+                    containerViewStyle={{flex: 1, alignItems: 'flex-end', justifyContent: 'center'}}
+                    backgroundColor={'coral'}
+                    borderRadius={12}
+                    onPress={() => this.props.navigation.navigate('Notes', {docName: filePath})} />
+                </View>
             </View>
         );
     }

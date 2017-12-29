@@ -7,6 +7,8 @@ export default isFetching = (state = false, action) => {
         case consts.FILE.REQUEST:
         case consts.LOGIN.REQUEST:
         case consts.LOGIN.RENEW.REQUEST:
+        case consts.NOTES.REQUEST:
+        case consts.NOTE.ADD.REQUEST:
             return true;
         case consts.DIRECTORY.SUCCESS:
         case consts.DIRECTORY.FAILURE:
@@ -18,6 +20,10 @@ export default isFetching = (state = false, action) => {
         case consts.LOGIN.FAILURE:
         case consts.LOGIN.RENEW.SUCCESS:
         case consts.LOGIN.RENEW.FAILURE:
+        case consts.NOTES.SUCCESS:
+        case consts.NOTES.FAILURE:
+        case consts.NOTE.ADD.SUCCESS:
+        case consts.NOTE.ADD.FAILURE:
             return false;
         default:
             return state;

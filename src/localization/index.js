@@ -12,10 +12,14 @@ const de = {
         errorUrlEmpty: 'Url ist ein Pflichtfeld',
         errorUrlUrl: 'Url ist nicht valid'
     },
+    document: {
+        labelNotes: 'Notizen'
+    },
     browser: {
         labelDir: 'Verzeichnis',
         labelDocs: 'Dokumente',
-        labelFile: 'Datei'
+        labelFile: 'Datei',
+        labelNotes: 'Anmerkungen'
     } 
 }
 
@@ -33,10 +37,14 @@ const en = {
         errorUrlEmpty: 'url is mandatory',
         errorUrlUrl: 'url is not valid'
     },
+    document: {
+        labelNotes: 'notes'
+    },
     browser: {
         labelDir: 'directory',
         labelDocs: 'documents',
-        labelFile: 'file'
+        labelFile: 'file',
+        labelNotes: 'notes'
     } 
 }
 

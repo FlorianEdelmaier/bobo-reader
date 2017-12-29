@@ -1,12 +1,12 @@
 #Internal package file, do not edit.
-#Wed Dec 06 02:27:14 CET 2017
+#Wed Dec 20 23:28:23 CET 2017
 56.path=lib/armeabi-v7a/libjniPdfium.so
 5.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 42.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 22.path=main.jsbundle.meta
 32.set=NATIVE_RESOURCE
 52.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/assets/release
-32.path=lib/armeabi-v7a/libyoga.so
+32.path=lib/armeabi/libicu_common.so
 36.baseType=DIRECTORY
 18.baseType=DIRECTORY
 27.baseType=DIRECTORY
@@ -141,7 +141,7 @@ count=64
 48.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/dex/release/0
 28.path=lib/x86_64/libmodpng.so
 30.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
-10.path=lib/arm64-v8a/libmodpdfium.so
+10.path=lib/x86/libicu_common.so
 58.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 13.baseType=DIRECTORY
 50.baseType=DIRECTORY
@@ -194,7 +194,7 @@ count=64
 34.baseType=DIRECTORY
 51.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 49.path=lib/armeabi-v7a/libmodpdfium.so
-31.path=lib/armeabi/libicu_common.so
+31.path=lib/armeabi-v7a/libyoga.so
 61.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/assets/release
 59.path=lib/armeabi-v7a/libmodpng.so
 8.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
@@ -213,7 +213,7 @@ count=64
 49.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 29.path=lib/x86/libmodpdfium.so
 31.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
-11.path=lib/x86/libicu_common.so
+11.path=lib/arm64-v8a/libmodpdfium.so
 59.base=/Users/Florian/Projects/bobo-reader/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 2.set=NATIVE_RESOURCE
 39.path=lib/armeabi-v7a/libreactnativejni.so

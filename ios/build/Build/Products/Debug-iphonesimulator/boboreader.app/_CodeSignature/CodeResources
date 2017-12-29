@@ -54,31 +54,31 @@
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		uJ8dPaHt75z19ijs08lkugHq/RA=
+		ooz0sIAaLKBGoFU5iKq8DR11NmY=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		JBrL6En4QJlYoMl3malqnJmn+O8=
+		R/knOPjsjrJNiVtUa2S4kYE749M=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		dbDeE0h2Hr7N2KnFoER4aHgVj90=
+		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		6TSFXZwgmlONmxMDFLs4kWApLLU=
+		K7jOt4uC+lqy/StneXlQVk21axY=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
+		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		GppB8PhBSInv7zFg7eYcqNwZWXQ=
+		M3EBma1BpAxt7iGIjYcrm9BnNOc=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		v6itdPCqWnawODUfQYc+nRyGDJY=
+		5EUn1qFgVTwSkfSLCubcLwgrx0c=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -91,11 +91,11 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		iStWmEB1q6TTpoeht5O8TSdKtb0=
+		Etc/8BPenX54rv1uBx24u4bnqTg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iEybKRk//faesCyZMBOUsYI6RYM=
+		UX8ALvg032XXiRntnbvLRLe0mtU=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -123,19 +123,19 @@
 		</data>
 		<key>PlugIns/boboreaderTests.xctest.dSYM/Contents/Resources/DWARF/boboreaderTests</key>
 		<data>
-		FNSaD1tuWjxN5zaMke1wDWoo48M=
+		/Hg21GO+C/zA7Z3i10g0Si6LaAo=
 		</data>
 		<key>PlugIns/boboreaderTests.xctest/Info.plist</key>
 		<data>
-		SDqNlEdC9gXxYDHthur9cHlS3vM=
+		JW7gUzssGdoRalVT3L6dAxrmmZI=
 		</data>
 		<key>PlugIns/boboreaderTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		D/6cqC70NyWL0Gt5lOY5Yj9NdNQ=
+		jzlZyjXH1V+qSELh21Uzvoga5Vw=
 		</data>
 		<key>PlugIns/boboreaderTests.xctest/boboreaderTests</key>
 		<data>
-		DY6y2F+pcBobrdBYSNIeXIYqlwo=
+		KqaSkZHi8FnhM7DqF0zZDgcLL4g=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -284,77 +284,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uJ8dPaHt75z19ijs08lkugHq/RA=
+			ooz0sIAaLKBGoFU5iKq8DR11NmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			d6d8CZAcM6Kdjf0zJpNR/lLlm1JBIL+jo73yQnC1M8w=
+			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JBrL6En4QJlYoMl3malqnJmn+O8=
+			R/knOPjsjrJNiVtUa2S4kYE749M=
 			</data>
 			<key>hash2</key>
 			<data>
-			J/Q7YarUOESTurbho30IqTRcE6OiUWHnLdfDSMUbyIs=
+			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dbDeE0h2Hr7N2KnFoER4aHgVj90=
+			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			br5JnbDDYJqW9qsLElibwrloxLI/qAE+fWw2nPP0c5Y=
+			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6TSFXZwgmlONmxMDFLs4kWApLLU=
+			K7jOt4uC+lqy/StneXlQVk21axY=
 			</data>
 			<key>hash2</key>
 			<data>
-			LZ1ASodl//MKBSICK68FJm/CdWCR8khtshgaFC/ieak=
+			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
+			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VkelzrG8Kuv+tr/kUIl+vuviJ8HN2lva55atmSO9r6A=
+			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GppB8PhBSInv7zFg7eYcqNwZWXQ=
+			M3EBma1BpAxt7iGIjYcrm9BnNOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tkN5JJG6yN6ivA9JyljUiNPAUHZ189GU4IPEXdsKs1k=
+			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v6itdPCqWnawODUfQYc+nRyGDJY=
+			5EUn1qFgVTwSkfSLCubcLwgrx0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			SuG0eC2epXej+0FOC+J+gltXGdKlh2SgWTAjCWbsFP0=
+			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -374,11 +374,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iStWmEB1q6TTpoeht5O8TSdKtb0=
+			Etc/8BPenX54rv1uBx24u4bnqTg=
 			</data>
 			<key>hash2</key>
 			<data>
-			inYnSzARwOiRjT2jEooaoBbVT1Ux8ckVmKUBouHF4mk=
+			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
 			</data>
 		</dict>
 		<key>Ionicons.ttf</key>
@@ -440,44 +440,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FNSaD1tuWjxN5zaMke1wDWoo48M=
+			/Hg21GO+C/zA7Z3i10g0Si6LaAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z4HW1X1l/mFKYC61LoCvp4ND8/mLPKpXNVMYt1U/4X8=
+			RcVzVYZ0wJ+1KB6O/aO6po4AnR0xQW2xtRQALmG46pw=
 			</data>
 		</dict>
 		<key>PlugIns/boboreaderTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SDqNlEdC9gXxYDHthur9cHlS3vM=
+			JW7gUzssGdoRalVT3L6dAxrmmZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			nXH32ocpTUxDyYxarKn54ApxWnGbd45fitABcP6GFR0=
+			OSzbw9bYr0jDhrrWXQlZLLq7JhOsRJjg+74Wyq2aO9M=
 			</data>
 		</dict>
 		<key>PlugIns/boboreaderTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D/6cqC70NyWL0Gt5lOY5Yj9NdNQ=
+			jzlZyjXH1V+qSELh21Uzvoga5Vw=
 			</data>
 			<key>hash2</key>
 			<data>
-			vgXu/w5YYEuU0+7jpIPO103VhzOwY639nbTxPLAibw0=
+			Wrp3UQnMUyT+nnDJ4WvFfemfrtbJ8nopx611MOqd+RM=
 			</data>
 		</dict>
 		<key>PlugIns/boboreaderTests.xctest/boboreaderTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DY6y2F+pcBobrdBYSNIeXIYqlwo=
+			KqaSkZHi8FnhM7DqF0zZDgcLL4g=
 			</data>
 			<key>hash2</key>
 			<data>
-			SQdVaVMYfqx1U+S8VNWlXLeKYFYUSBfi8g9fFrLMuqA=
+			OvFMzsSlLflVMmS8teiHEcCNYycsi9zMkfiWfRMdWso=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>

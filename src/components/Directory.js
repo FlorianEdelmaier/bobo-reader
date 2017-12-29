@@ -15,7 +15,7 @@ class Directory extends React.Component {
     };
 
     componentDidMount() {
-        console.log("did mount", this.props.lang, this.props.token)
+        // console.log("did mount", this.props.lang, this.props.token)
         this.props.fetchDirectory(this.props.lang, this.props.token);
     }
 

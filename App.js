@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import Directory from './src/components/Directory';
 import Chapter from './src/components/Chapter';
 import Document from './src/components/Document';
+import Notes from './src/components/Notes';
 import Login from './src/components/Login';
 import { StackNavigator, addNavigationHelpers } from 'react-navigation';
 import { Provider } from 'react-redux';
@@ -16,7 +17,8 @@ const Root = () => (
 const AppNavigator = StackNavigator({
   Directory: { screen: Directory },
   Chapter: { path: 'directory/:dirName', screen: Chapter },
-  Document: { path: 'document/:docName', screen: Document }
+  Document: { path: 'document/:docName', screen: Document },
+  Notes: { path: 'notes/:docName', screen: Notes }
 });
 
 class App extends React.Component {

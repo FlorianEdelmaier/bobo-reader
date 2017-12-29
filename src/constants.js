@@ -16,6 +16,20 @@ export const FILE = {
     FAILURE: 'FILE_REQUEST_FAILURE'
 }
 
+export const NOTES = {
+    REQUEST: 'NOTES_REQUEST',
+    SUCCESS: 'NOTES_REQUEST_SUCCESS',
+    FAILURE: 'NOTES_REQUEST_FAILURE'
+}
+
+export const NOTE = {
+    ADD: {
+        REQUEST: 'NOTE_ADD_REQUEST',
+        SUCCESS: 'NOTE_ADD_SUCCESS',
+        FAILURE: 'NOTE_ADD_FAILURE'
+    }
+}
+
 export const LOGIN = {
     REQUEST: 'LOGIN_REQUEST',
     SUCCESS: 'LOGIN_SUCCESS',

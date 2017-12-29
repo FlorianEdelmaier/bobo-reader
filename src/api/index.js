@@ -26,7 +26,7 @@ export const login = (userName, password, url, deviceType) => {
 };
 
 export const getDirectory = (lang, userToken) => {
-    console.log("getdir", lang, userToken);
+    // console.log("getdir", lang, userToken);
     return fetch(`${config.baseApiPath}/download/index/${lang}`, {
         method: 'GET',
         headers: {
@@ -55,4 +55,42 @@ export const getSubDirectory = (lang, parentDir, userToken) => {
         if(!resp.status !== 200 && resp.erros && resp.errors.length > 0) throw new Error(resp.errors[0].message);
         return resp;
     });
+}
+
+export const getNotes = (uid, filePath, token) => {
+    return fetch(`${config.baseApiPath}/notes/${uid}/${filePath}`, {
+        method: 'GET',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'x-access-token': token
+        }
+    })
+    .then(resp => resp.json())
+    .then(resp => {
+        if(!resp.status !== 200 && resp.erros && resp.errors.length > 0) throw new Error(resp.errors[0].message);
+        return resp;
+    });
+}
+
+export const createNote = (uid, filePath, note, token) => {
+    return fetch(`${config.baseApiPath}/notes`, {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'x-access-token': token
+        },
+        body: JSON.stringify({
+            uid,
+            filePath,
+            note
+        })
+    })
+    .then(resp => resp.json())
+    .then(resp => {
+        if(!resp.success && resp.erros && resp.errors.length > 0) throw new Error(resp.errors[0].message);
+        return resp;
+    })
+    .catch(err => { console.log("FETCH ERR:", err); throw err; }); 
 }
