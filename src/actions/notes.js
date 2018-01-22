@@ -4,7 +4,8 @@ import * as api from './../api';
 export const fetchNotes = (uid, filePath, token) => async(dispatch) => {
     dispatch({ type: consts.NOTES.REQUEST });
     try {
-        const dir = await api.getNotes(uid, filePath, token);
+        const notes = await api.getNotes(uid, filePath, token);
+        console.log('notes', notes)
         dispatch({
             type: consts.NOTES.SUCCESS,
             payload: notes
@@ -19,12 +20,13 @@ export const fetchNotes = (uid, filePath, token) => async(dispatch) => {
 };
 
 export const createNote = (uid, filePath, note, token) => async(dispatch) => {
+    console.log('action add note:', uid, filePath, note)
     dispatch({ type: consts.NOTE.ADD.REQUEST });
     try {
-        const note = await api.createNote(uid, filePath, note, token);
+        const noteAdded = await api.createNote(uid, filePath, note, token);
         dispatch({
             type: consts.NOTE.ADD.SUCCESS,
-            payload: note
+            payload: noteAdded
         })
     }
     catch(error) {

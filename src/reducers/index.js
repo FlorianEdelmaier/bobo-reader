@@ -5,6 +5,7 @@ import isFetching from './isFetching';
 import login, * as loggedInSelector from './login';
 import lang from './lang';
 import loginError from './loginError';
+import notes from './notes';
 
 const rootReducer = combineReducers([
     directory,
@@ -12,7 +13,8 @@ const rootReducer = combineReducers([
     isFetching,
     login,
     lang,
-    loginError
+    loginError,
+    notes
 ]);
 
 export default rootReducer;

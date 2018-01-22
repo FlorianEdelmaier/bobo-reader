@@ -74,6 +74,7 @@ export const getNotes = (uid, filePath, token) => {
 }
 
 export const createNote = (uid, filePath, note, token) => {
+    console.log("action", uid, filePath, note);
     return fetch(`${config.baseApiPath}/notes`, {
         method: 'POST',
         headers: {

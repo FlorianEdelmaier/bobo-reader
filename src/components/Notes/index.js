@@ -3,11 +3,12 @@ import { ActivityIndicator, View, ScrollView, Text, Dimensions, Image, ImageBack
 import { connect } from 'react-redux';
 import { FormInput, FormValidationMessage, FormLabel, Button, Card } from 'react-native-elements';
 import NotesList from './NotesList';
-import { fetchNotes } from './../../actions/notes';
+import { fetchNotes, createNote } from './../../actions/notes';
 
 class Notes extends Component {
     constructor(props) {
         super(props)
+        this.state = { filePath: '', text: '' }
     }
 
     static navigationOptions = {
@@ -15,23 +16,37 @@ class Notes extends Component {
     }
 
     componentDidMount() {
-        const { filePath } = this.props.navigation.state.params;
-        this.props.fetchNotes(this.props.uid, filePath, this.props.token);
+        const { docName } = this.props.navigation.state.params;
+        const schema = docName.split('/');
+        const path = unescape(schema[schema.length - 2] + '#' + schema[schema.length - 1]);
+        console.log('did mount', schema, path)
+        this.setState({filePath: path})
+        this.props.fetchNotes(this.props.uid, path, this.props.token);
+    }
+
+    onPressSave() {
+        this.props.createNote(this.props.uid, this.state.filePath, this.state.text, this.props.token);
+        this.setState({text: ''})
     }
 
     render() {
         return (
-            <View>
+            <View style={{flex: 1}}>
                 <Card title={"Notiz"}>
                     <FormInput
                         multiline
                         autoCapitalize='none'
                         autoCorrect={true}
                         keyboardType='default'
+                        maxLength={120}
+                        numberOfLines={4}
+                        onChangeText={(text) => this.setState({text: text})}
+                        value={this.state.text}
                     />
                     <Button
                         containerViewStyle={{margin: 10}}
                         raised
+                        onPress={() => this.onPressSave()}
                         title={"Save"} />
                 </Card>
                 <NotesList notes={this.props.notes} isFetching={this.props.isFetching} />
@@ -45,13 +60,14 @@ const mapStateToProps = (state) => {
         uid: state[3].id,
         isFetching: state[2],
         token: state[3].token,
-        notes: [{note: "xxx"},{notes: "yyy"}]
+        notes: state[6]
     }
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        fetchNotes: (uid, fpath, token) => dispatch(fetchNotes(uid, fpath, token))
+        fetchNotes: (uid, fpath, token) => dispatch(fetchNotes(uid, fpath, token)),
+        createNote: (uid, fpath, note, token) => dispatch(createNote(uid, fpath, note, token))
     }
 };
 

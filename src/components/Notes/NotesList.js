@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         width: '100%',
         justifyContent: 'flex-start',
         alignItems: 'stretch',
-        marginTop: 0,
+        marginTop: 5,
         borderTopWidth: 0,
         backgroundColor: 'white'
     },
